@@ -1,0 +1,54 @@
+.Container {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.SectionTitle {
+  font-size: 28px;
+  color: white;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.confirm-ticket-container {
+  margin: 10vh;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(171, 7, 7, 0.6);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 10px;
+  color: white;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticket {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vh;
+
+  .qr-container {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+

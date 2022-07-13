@@ -1,0 +1,156 @@
+.Container {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.SectionTitle {
+  font-size: 28px;
+  color: white;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.details-container {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  background: rgba(171, 7, 7, 0.6);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 10px;
+  color: white;
+  width: auto;
+
+  .details-up {
+    display: flex;
+
+    .details-up-1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .Film-img {
+        max-width: 2000px;
+        height: 500px;
+      }
+    }
+
+    .details-up-2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 3vh;
+
+      .Films-span {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-right: 3vh;
+      }
+
+      .Films-div {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .Films-div-long {
+        display: flex;
+        flex-direction: column;
+      }
+
+      p {
+        color: black;
+      }
+    }
+  }
+
+  .details-down {
+    display: flex;
+    flex-direction: column;
+
+    .details-dates {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+
+      .details-date {
+        margin: 1vh;
+
+        .details-hour-links {
+            background-color: rgba(0, 0, 0, 0.25);
+            margin-bottom: 1vh;
+            transition: 0.5s;
+            cursor: pointer;
+            &:hover {
+              background-color: rgba(0, 0, 0, 0.75);
+              transition: 0.5s;
+            }
+          }
+      }
+    }
+  }
+}
+
+/*COMMON MEDIA QUERIES*/
+@media (max-width: 576px) {
+  .Container {
+    max-width: 540px;
+  }
+  .details-container {
+    max-width: 85vh;
+  }
+  .details-up {
+    flex-direction: column;
+  }
+}
+@media (min-width: 576px) {
+  .Container {
+    max-width: 540px;
+  }
+  .details-container {
+    max-width: 90vh;
+  }
+  .details-up {
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) {
+  .Container {
+    max-width: 720px;
+  }
+  .details-container {
+    max-width: 120vh;
+  }
+}
+@media (min-width: 992px) {
+  .Container {
+    max-width: 960px;
+  }
+  .details-container {
+    max-width: 160vh;
+  }
+  .details-up {
+    flex-direction: row;
+  }
+}
+@media (min-width: 1200px) {
+  .Container {
+    max-width: 1000px;
+  }
+  .details-container {
+    max-width: 160vh;
+  }
+}

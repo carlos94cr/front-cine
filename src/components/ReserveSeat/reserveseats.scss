@@ -1,0 +1,176 @@
+.Container {
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  
+  .SectionTitle2 {
+    font-size: 28px;
+    color: white;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .ticket-container {
+    margin: 3vh;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 10px;
+    color: white;
+    width: auto;
+  
+    .hall-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .preticket-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+    }
+  }
+  
+  .row-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .preticket-container-hall-time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    span {
+      padding: 10px 20px;
+    }
+  }
+  
+  .seat-number {
+    margin: 0 5px;
+  }
+  
+  .seat-1 {
+    accent-color: black;
+    transform: scale(2);
+    margin: 1.5vh;
+    cursor: pointer;
+  }
+  
+  .seat-2 {
+    accent-color: green;
+    transform: scale(2);
+    margin: 1.5vh;
+    cursor: pointer;
+  }
+  
+  .seat-3 {
+    background-color: red;
+    margin: 4px;
+    height: 25.5px;
+    width: 25.5px;
+    border-radius: 4px;
+  }
+  
+  .PrimaryBtn {
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    background: #c00e1d;
+    border-radius: 11px;
+    box-sizing: border-box;
+    color: #f6f6f6;
+    cursor: pointer;
+    display: flex;
+    font-size: 0.9rem;
+    font-weight: 500;
+    justify-content: center;
+    padding: 0.8em 1em;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
+    text-underline-offset: 1px;
+    transition: all 0.2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    word-break: break-word;
+    margin-top: 3vh;
+    width: 160px;
+    &:hover {
+      transition: 0.5s;
+      color: black;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 10px;
+    }
+  }
+  
+  .row-container{
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: wrap;
+      margin: 2px;
+  }
+  
+  .preticket-container-hall-time{
+      display:flex;
+      justify-content: center;
+      
+      span{
+          padding:10px 20px;
+      }
+  }
+  
+  .seat-number{
+      margin: 0 5px;
+  }
+  
+  .anchor-register, .anchor-login {
+      color: black;
+      text-transform: uppercase;
+      font-weight: 600;
+      cursor: pointer;
+      margin-left: 1vh;
+  }
+
+  .login-popup {
+    position: absolute;
+    background: rgba(171, 7, 7, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 20vh;
+    flex-direction: column;
+    border-radius: 2vh;
+    padding: 2vh;
+  }
+  
+  // QUERIES FOR ROWS & SEATS //
+  @media screen and (min-width: 1400px) {
+    .row-container {
+      margin: 2px;
+    }
+    .seat-3 {
+      margin: 8px;
+    }
+  }

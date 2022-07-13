@@ -1,0 +1,231 @@
+.Container {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.SectionTitle2 {
+  font-size: 28px;
+  color: white;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.ticket-container {
+  margin: 3vh;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 10px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 10px;
+  color: white;
+  width: auto;
+}
+
+.ticket-container .hall-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ticket-container .preticket-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.row-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.preticket-container-hall-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.preticket-container-hall-time span {
+  padding: 10px 20px;
+}
+
+.seat-number {
+  margin: 0 5px;
+}
+
+.seat-1 {
+  accent-color: black;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  margin: 1.5vh;
+  cursor: pointer;
+}
+
+.seat-2 {
+  accent-color: green;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  margin: 1.5vh;
+  cursor: pointer;
+}
+
+.seat-3 {
+  background-color: red;
+  margin: 4px;
+  height: 25.5px;
+  width: 25.5px;
+  border-radius: 4px;
+}
+
+.PrimaryBtn {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #c00e1d;
+  border-radius: 11px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #f6f6f6;
+  cursor: pointer;
+  display: flex;
+  font-size: 0.9rem;
+  font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.8em 1em;
+  text-align: center;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
+  text-underline-offset: 1px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  word-break: break-word;
+  margin-top: 3vh;
+  width: 160px;
+}
+
+.PrimaryBtn:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: black;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 10px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 10px;
+}
+
+.row-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 2px;
+}
+
+.preticket-container-hall-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.preticket-container-hall-time span {
+  padding: 10px 20px;
+}
+
+.seat-number {
+  margin: 0 5px;
+}
+
+.anchor-register, .anchor-login {
+  color: blue;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1400px) {
+  .row-container {
+    margin: 2px;
+  }
+  .seat-3 {
+    margin: 8px;
+  }
+}
+/*# sourceMappingURL=reserveseats.css.map */

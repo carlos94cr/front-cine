@@ -1,0 +1,156 @@
+/*COMMON STYLES FOR LOGIN, REGISTER & USERZONE*/
+
+.Container {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.SectionTitle {
+  font-size: 28px;
+  color: white;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.BigCard {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 10px;
+  color: white;
+  width: 100vh;
+  margin-bottom: 3vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+
+  .InputField {
+    border: 2px solid #c00e1d;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2vh;
+    width: 300px;
+    text-align: center;
+    margin-top: 1vh;
+    color: black;
+
+    &:focus {
+      background-color: #c00e1d;
+    }
+  }
+}
+
+.Users-span {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0vh;
+}
+
+.PrimaryBtn {
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  background: #c00e1d;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #f6f6f6;
+  cursor: pointer;
+  display: flex;
+  font-size: 0.9rem;
+  font-weight: 500;
+  justify-content: center;
+  padding: 0.8em 1em;
+  text-align: center;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
+  text-underline-offset: 1px;
+  transition: all 0.2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  word-break: break-word;
+  margin-top: 3vh;
+  &:hover {
+    transition: 0.5s;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 10px;
+  }
+}
+
+/*COMMON MEDIA QUERIES*/
+@media (max-width: 576px) {
+  .Container {
+    max-width: 540px;
+  }
+  .BigCard {
+    max-width: 60vh;
+  }
+}
+@media (min-width: 576px) {
+  .Container {
+    max-width: 540px;
+  }
+  .BigCard {
+    max-width: 60vh;
+  }
+}
+@media (min-width: 768px) {
+  .Container {
+    max-width: 720px;
+  }
+  .BigCard {
+    max-width: 72vh;
+  }
+}
+@media (min-width: 992px) {
+  .Container {
+    max-width: 960px;
+  }
+  .BigCard {
+    max-width: 96vh;
+  }
+}
+@media (min-width: 1200px) {
+  .Container {
+    max-width: 1000px;
+  }
+  .BigCard {
+    max-width: 100vh;
+  }
+}
+
+/*STYLES FOR USERZONE*/
+.password-invisible {
+  display: none;
+}
+
+.personal-data,
+.history-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}

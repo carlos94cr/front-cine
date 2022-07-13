@@ -1,0 +1,217 @@
+/*COMMON STYLES FOR LOGIN, REGISTER & USERZONE*/
+.Container {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.SectionTitle {
+  font-size: 28px;
+  color: white;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.BigCard {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 10px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 10px;
+  color: white;
+  width: 100vh;
+  margin-bottom: 3vh;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form .InputField {
+  border: 2px solid #c00e1d;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 2vh;
+  width: 300px;
+  text-align: center;
+  margin-top: 1vh;
+  color: black;
+}
+
+form .InputField:focus {
+  background-color: #c00e1d;
+}
+
+.Users-span {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0vh;
+}
+
+.PrimaryBtn {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #c00e1d;
+  border-radius: 11px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #f6f6f6;
+  cursor: pointer;
+  display: flex;
+  font-size: 0.9rem;
+  font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.8em 1em;
+  text-align: center;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
+  text-underline-offset: 1px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  word-break: break-word;
+  margin-top: 3vh;
+}
+
+.PrimaryBtn:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: black;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 10px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 10px;
+}
+
+/*COMMON MEDIA QUERIES*/
+@media (max-width: 576px) {
+  .Container {
+    max-width: 540px;
+  }
+  .BigCard {
+    max-width: 60vh;
+  }
+}
+
+@media (min-width: 576px) {
+  .Container {
+    max-width: 540px;
+  }
+  .BigCard {
+    max-width: 60vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .Container {
+    max-width: 720px;
+  }
+  .BigCard {
+    max-width: 72vh;
+  }
+}
+
+@media (min-width: 992px) {
+  .Container {
+    max-width: 960px;
+  }
+  .BigCard {
+    max-width: 96vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Container {
+    max-width: 1000px;
+  }
+  .BigCard {
+    max-width: 100vh;
+  }
+}
+
+/*STYLES FOR USERZONE*/
+.password-invisible {
+  display: none;
+}
+
+.personal-data,
+.history-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+/*# sourceMappingURL=User.css.map */

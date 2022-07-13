@@ -1,0 +1,44 @@
+.Container {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.history-data {
+  margin: 10vh;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(171, 7, 7, 0.6);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 10px;
+  color: white;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.history-ticket {
+  display: flex;
+  flex-direction: column;
+
+  span {
+    margin: 0.5vh;
+  }
+}
+
+.qr-anchor {
+  color: blue;
+  cursor: pointer;
+}

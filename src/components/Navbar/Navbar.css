@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+nav {
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 10;
+  background: #131313;
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: 1rem;
+  margin-left: auto;
+}
+
+.NavLink {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #777779;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.NavLink:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #f6f6f6;
+}
+
+.Logo img {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  width: 60vh;
+  height: 15vh;
+  cursor: pointer;
+}
+
+.Logo img:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.NavMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 2vh;
+}
+
+@media screen and (max-width: 768px) {
+  .NavMenu {
+    display: none;
+  }
+}
+
+.NavLogout {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #e62143;
+  border-radius: 11px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #f6f6f6;
+  cursor: pointer;
+  display: flex;
+  font-size: 0.9rem;
+  font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.8em 1em;
+  text-align: center;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
+  text-underline-offset: 1px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  width: 100%;
+  word-break: break-word;
+  margin-left: 1rem;
+}
+
+.NavLogout:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #777779;
+  border-color: #dadada;
+}
+
+@media screen and (max-width: 768px) {
+  .NavLogout {
+    display: none;
+  }
+}
+
+/*DROPDOWN MENU*/
+ol,
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dropdown-menu .material-symbols-outlined {
+  font-family: "Material Symbols Outlined";
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  color: white;
+  cursor: pointer;
+}
+
+.dropdown-menu .material-symbols-outlined:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.7);
+          transform: scale(1.7);
+}
+
+.dropdown-menu .material-symbols-outlined:hover .NavMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .dropdown-menu .material-symbols-outlined:hover .NavMenu {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .dropdown-menu .material-symbols-outlined {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=Navbar.css.map */

@@ -1,0 +1,108 @@
+.SectionTitle {
+  font-size: 28px;
+  color: white;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.cartelera-all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1vh;
+}
+
+.cartelera-card {
+  margin: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(171, 7, 7, 0.6);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 10px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 10px;
+  color: white;
+  width: 300px;
+  height: 500px;
+  text-transform: uppercase;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.cartelera-card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.cartelera-card:hover .cartelera-card-img {
+  opacity: 0.3;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.cartelera-card:hover .details {
+  opacity: 1;
+  -webkit-transform: translate(-50%, -200%);
+          transform: translate(-50%, -200%);
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.cartelera-card .cartelera-card-black {
+  background-color: black;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.cartelera-card .cartelera-card-black .cartelera-card-img {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.cartelera-card h2 {
+  margin-top: 1.5rem;
+  font-weight: 500;
+}
+
+.cartelera-card .details {
+  width: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 200%);
+          transform: translate(-50%, 200%);
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/*# sourceMappingURL=Home.css.map */
